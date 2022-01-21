@@ -1,0 +1,80 @@
+######################################################################
+# Build Tools
+
+.gradle/*
+*/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+*/target/
+!.mvn/wrapper/maven-wrapper.jar
+**/node_modules/
+######################################################################
+# IDE
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+*.class
+
+### NetBeans ###
+nbproject/private/
+build/*
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+*/test/
+
+######################################################################
+# Others
+*.log
+*.xml.versionsBackup
+
+!*/build/*.java
+!*/build/*.html
+!*/build/*.xml
+
+# system ignore
+.DS_Store
+Thumbs.db
+
+*/unpackage/resources/
+
+*.iml
+jeecg-boot-module-demo
+rebel.xml
+*/.rebel.xml*
+.DS_Store
+node_modules
+/dist
+/.idea/
+/logs/
+/target/
+target/
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
