@@ -9,7 +9,7 @@ import support.ListNode;
  * 请你将两个数相加，并以相同形式返回一个表示和的链表。
  * 你可以假设除了数字 0 之外，这两个数都不会以 0开头。
  *
- * 链接：https://leetcode-cn.com/problems/add-two-numbers modify b
+ * 链接：https://leetcode-cn.com/problems/add-two-numbers modify c
  *
  */
 public class Question2 {
